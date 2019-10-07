@@ -4,7 +4,8 @@ export const NavigationContainer = styled.div`
   margin: 0 auto;
   color: red;
   max-width: 960px;
-  padding: 1.45rem 1.0875rem;
+  padding: 1.45rem 1.0875rem 0.6rem 1.0875rem;
+
   @media (max-width: 320px) {
     padding: 1.45rem 0.7rem;
   }
@@ -29,23 +30,24 @@ export const WebNavContainer = styled.div`
     }
 
     a {
+      font-family: "Julius Sans One", sans-serif;
       display: flex;
-      font-size: 19px;
+      font-size: 16px;
       align-items: center;
       justify-content: center;
-      width: 20%;
+      width: 16%;
       text-decoration: none;
       border-radius: 5px;
       background: #f7d30f;
       box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
       text-shadow: 0px 1px 0px #2f6627;
-      padding: 16px 31px;
+      padding: 10px 20px;
       color: black;
-      font-style: bold;
+      font-weight: 700;
       cursor: pointer;
 
       svg {
-        width: 20%;
+        width: 15%;
         height: 70%;
         margin-left: 10%;
       }

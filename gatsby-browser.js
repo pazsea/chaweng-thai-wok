@@ -1,7 +1,9 @@
-/**
- * Implement Gatsby's Browser APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/browser-apis/
- */
+import "typeface-julius-sans-one"
+import "typeface-noto-sans"
+import "typeface-fjalla-one"
 
-// You can delete this file if you're not using it
+
+
+// require("typeface-lora")
+// require("typeface-merriweather")
+// require("typeface-typeface-julius-sans-one")

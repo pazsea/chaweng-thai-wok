@@ -20,7 +20,10 @@
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-helmet": "^5.2.1",
-    "styled-components": "^4.4.0"
+    "styled-components": "^4.4.0",
+    "typeface-fjalla-one": "0.0.72",
+    "typeface-julius-sans-one": "0.0.72",
+    "typeface-noto-sans": "0.0.72"
   },
   "devDependencies": {
     "prettier": "^1.18.2"

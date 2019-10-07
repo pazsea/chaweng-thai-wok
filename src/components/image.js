@@ -25,7 +25,7 @@ const Image = ({ ImageUrl, className }) => {
       }
       restaurantBannerImage: file(relativePath: { eq: "banner.png" }) {
         childImageSharp {
-          fluid {
+          fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -33,6 +33,48 @@ const Image = ({ ImageUrl, className }) => {
       iconImage: file(relativePath: { eq: "gatsby-icon.png" }) {
         childImageSharp {
           fluid(maxWidth: 300) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      resturangImage: file(relativePath: { eq: "store.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      tomKhaGai: file(relativePath: { eq: "tomkhagai.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      springrolls: file(relativePath: { eq: "spring.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      phadthai: file(relativePath: { eq: "phadthai.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      gaengShrimp: file(relativePath: { eq: "gaengshrimp.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      gaeng: file(relativePath: { eq: "gaeng.png" }) {
+        childImageSharp {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
