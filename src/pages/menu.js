@@ -28,8 +28,15 @@ const MenuPage = () => (
       <div className="foodHeader">
         <h1>LUNCH 90 :-</h1>{" "}
         <p>
-          (Kl. 11:00 - 14:00 läsk & kaffe ingår)<br></br>Telefon: 078838394
+          (Kl. 11:00 - 14:00 läsk & kaffe ingår)<br></br>Telefon:{" "}
+          <a href="tel:123-456-7890">123-456-7890</a>
         </p>
+      </div>
+      <div className="foodMeats">
+        <h2>Kyckling 99:-</h2>
+        <h2>Vegetarisk 90:-</h2>
+        <h2>Biff 99:-</h2>
+        <h2>Räkor 119:-</h2>
       </div>
       <div className="foodMenuContainer">
         <ol className="foodListA">
@@ -136,8 +143,6 @@ const MenuPage = () => (
           <li>Cashewnötter 10 kr</li> <li>Läsk/Kaffé 15 kr </li>
         </ol>
       </div>
-
-      <div></div>
     </MenuContainer>
   </Layout>
 )

@@ -3,16 +3,13 @@ import styled from "styled-components"
 export const MenuContainer = styled.div`
   position: relative;
   display: grid;
-  padding: 2em;
+  padding: 2em 0 1em 0;
   background: rgba(255, 98, 31, 0.5);
   box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
 
-  div {
-    /* border: 1px solid red; */
-  }
-
   .foodHeader {
     text-align: center;
+
     h1 {
       font-size: 3em;
       font-family: "Fjalla One", sans-serif;
@@ -43,10 +40,13 @@ export const MenuContainer = styled.div`
     display: grid;
     /* grid-template-columns: 1fr 1fr; */
     grid-template-areas: "foodListA foodListB";
+    grid-template-columns: 1.4fr 1fr;
+
     @media (max-width: 650px) {
       grid-template-areas:
         "foodListA"
         "foodListB";
+      grid-template-columns: 1fr;
     }
     ol {
       li {
@@ -64,6 +64,7 @@ export const MenuContainer = styled.div`
 
   .foodDesc {
     font-style: italic;
+    margin: 0.2em 0 1em 0;
   }
 
   .foodListA {
@@ -98,6 +99,18 @@ export const MenuContainer = styled.div`
       right: -12px;
       width: 30%;
       font-size: 8px;
+    }
+  }
+
+  .foodMeats {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-family: "Fjalla One", sans-serif;
+    text-align: center;
+    @media (max-width: 650px) {
+      font-size: 12px;
+      padding: 0 2em;
+      grid-template-columns: 1fr 1fr;
     }
   }
 `
