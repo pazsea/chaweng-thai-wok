@@ -30,7 +30,7 @@ const Image = ({ ImageUrl, className }) => {
           }
         }
       }
-      iconImage: file(relativePath: { eq: "gatsby-icon.png" }) {
+      iconImage: file(relativePath: { eq: "palmIcon.ico" }) {
         childImageSharp {
           fluid(maxWidth: 300) {
             ...GatsbyImageSharpFluid

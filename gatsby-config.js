@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Chaweng Thai Wok`,
-    description: `Food 4 you`,
+    description: `Chaweng Thai Wok. Vi lagar utsökt thailändsk mat. Kom till oss i Sundbyberg och ät dig mätt!`,
     author: `Patrick Sjöberg`,
   },
   plugins: [
@@ -25,7 +25,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: ``, // This path is relative to the root of the site.
+        icon: `src/images/palmIcon.png`, // This path is relative to the root of the site.
       },
     },
     {

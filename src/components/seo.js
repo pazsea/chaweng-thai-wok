@@ -69,19 +69,22 @@ function SEO({ description, lang, meta, title }) {
         },
       ].concat(meta)}
     >
-      {" "}
-      {/* <link
-        href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap"
-        rel="stylesheet"
-      ></link>
-      <link
-        href="https://fonts.googleapis.com/css?family=Lora&display=swap"
-        rel="stylesheet"
-      ></link>
-      <link
-        href="https://fonts.googleapis.com/css?family=Merriweather&display=swap"
-        rel="stylesheet"
-      ></link> */}
+      <meta
+        property="og:description"
+        content="Chaweng Thai Wok. Vi lagar utsökt thailändsk mat. Kom till oss i Sundbyberg och ät dig mätt!"
+      ></meta>
+      <meta
+        property="og:image"
+        content="https://howlygil.sirv.com/Images/Thumbnails/store.png"
+      ></meta>
+      <meta
+        property="twitter:image"
+        content="https://howlygil.sirv.com/Images/Thumbnails/store.png"
+      ></meta>
+      <meta
+        property="twitter:description"
+        content="Chaweng Thai Wok. Vi r utsökt thailändsk mat. Kom till oss i Sundbyberg och ät dig mätt!"
+      ></meta>
     </Helmet>
   )
 }
@@ -89,7 +92,7 @@ function SEO({ description, lang, meta, title }) {
 SEO.defaultProps = {
   lang: `en`,
   meta: [],
-  description: ``,
+  description: `Chaweng Thai Wok. Vi lagar utsökt thailändsk mat. Kom till oss i Sundbyberg och ät dig mätt!`,
 }
 
 SEO.propTypes = {

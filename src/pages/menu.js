@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -29,7 +28,7 @@ const MenuPage = () => (
         <h1>LUNCH 90 :-</h1>{" "}
         <p>
           (Kl. 11:00 - 14:00 läsk & kaffe ingår)<br></br>Telefon:{" "}
-          <a href="tel:123-456-7890">123-456-7890</a>
+          <a href="tel:08-295567">08-29 55 67</a>
         </p>
       </div>
       <div className="foodMeats">
