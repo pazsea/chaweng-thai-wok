@@ -16,21 +16,40 @@ export const WebNavContainer = styled.div`
     /* border: 1px solid grey; */
     border-radius: 5px;
   }
+
+  .openHours {
+    color: black;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: "Noto Sans", sans-serif;
+    @media (max-width: 576px) {
+      font-size: 0.9em;
+    }
+    span {
+      color: ${props => (props.storeState ? "green" : "red")};
+      font-weight: 700;
+    }
+  }
+  .navLinkContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 0.7em;
+    background: #ff621f;
+    opacity: 65%;
+    padding: 0.5rem 1rem 1rem 1rem;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+    margin: 1.5rem 0;
+  }
+
   .webNavLink {
     display: flex;
     justify-content: space-evenly;
-    background: #ff621f;
-    opacity: 65%;
-    padding: 1rem;
-    box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
-    margin: 1.5rem 0;
 
     @media (max-width: 576px) {
-      padding: 1rem 0.3rem;
+      padding: 0.2rem 0.3rem;
     }
 
     a {
-      font-family: "Julius Sans One", sans-serif;
       display: flex;
       font-size: 16px;
       align-items: center;

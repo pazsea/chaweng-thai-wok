@@ -31,6 +31,9 @@ const MenuPage = () => (
           <a href="tel:08-295567">08-29 55 67</a>
         </p>
       </div>
+      <div className="otherHours">
+        <h2>Övrig Tid:</h2>
+      </div>
       <div className="foodMeats">
         <h2>Kyckling 99:-</h2>
         <h2>Vegetarisk 90:-</h2>

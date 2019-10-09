@@ -35,6 +35,14 @@ export const MenuContainer = styled.div`
       margin: 0;
     }
   }
+  .otherHours {
+    text-align: center;
+    font-family: "Fjalla One", sans-serif;
+    text-align: center;
+    @media (max-width: 650px) {
+      font-size: 12px;
+    }
+  }
 
   .foodMenuContainer {
     display: grid;
