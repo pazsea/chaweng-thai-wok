@@ -44,7 +44,7 @@ const Image = ({ ImageUrl, className }) => {
           }
         }
       }
-      tomKhaGai: file(relativePath: { eq: "tomkhagai.png" }) {
+      tomKhaGai: file(relativePath: { eq: "tokkhagai.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid

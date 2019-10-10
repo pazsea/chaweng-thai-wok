@@ -18,6 +18,7 @@ export const WebNavContainer = styled.div`
   }
 
   .openHours {
+    
     color: black;
     text-align: center;
     font-size: 1.5em;
@@ -26,8 +27,10 @@ export const WebNavContainer = styled.div`
       font-size: 0.9em;
     }
     span {
-      color: ${props => (props.storeState ? "green" : "red")};
+      color: ${props => (props.storeState ? "greenyellow" : "darkred")};
       font-weight: 700;
+      text-decoration: underline;
+      /* text-shadow: 0px 1px 0px black; */
     }
   }
   .navLinkContainer {
