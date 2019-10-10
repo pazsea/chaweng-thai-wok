@@ -31,15 +31,7 @@ const MenuPage = () => (
           <a href="tel:08-295567">08-29 55 67</a>
         </p>
       </div>
-      <div className="otherHours">
-        <h2>Övrig Tid:</h2>
-      </div>
-      <div className="foodMeats">
-        <h2>Kyckling 99:-</h2>
-        <h2>Vegetarisk 90:-</h2>
-        <h2>Biff 99:-</h2>
-        <h2>Räkor 119:-</h2>
-      </div>
+
       <div className="foodMenuContainer">
         <ol className="foodListA">
           <h2 className="foodHeaderCategory">
@@ -144,6 +136,15 @@ const MenuPage = () => (
           <li>Ris / nudlar 10 kr</li> <li>Kyckling /biff /räkor 20 kr</li>
           <li>Cashewnötter 10 kr</li> <li>Läsk/Kaffé 15 kr </li>
         </ol>
+      </div>
+      <div className="otherHours">
+        <h2>Övrig Tid:</h2>
+      </div>
+      <div className="foodMeats">
+        <h2>Kyckling 99:-</h2>
+        <h2>Vegetarisk 90:-</h2>
+        <h2>Biff 99:-</h2>
+        <h2>Räkor 119:-</h2>
       </div>
     </MenuContainer>
   </Layout>

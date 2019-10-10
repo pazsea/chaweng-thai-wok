@@ -70,6 +70,7 @@ function Header() {
     intervalChecker(daysAndTimeSlots, options, openStore, closeStore)
   })
 
+  //Every ten minute it check again.
   useInterval(() => {
     intervalChecker(daysAndTimeSlots, options, openStore, closeStore)
   }, 600000)
@@ -81,7 +82,7 @@ function Header() {
           <Image className="banner" ImageUrl="restaurantBannerImage" />
           <div className="navLinkContainer">
             <div className="openHours">
-              Just nu har vi: <span>{storeState ? "ÖPPET" : "STÄNGT"}</span>
+              Vi har: <span>{storeState ? "ÖPPET" : "STÄNGT"}</span>
             </div>
             <div className="webNavLink">
               <Link to="/">

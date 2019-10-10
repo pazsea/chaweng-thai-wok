@@ -45,7 +45,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:description`,
-          content: metaDescription,
+          content: `Chaweng Thai Wok. Vi lagar utsökt thailändsk mat. Kom till oss i Sundbyberg och ät dig mätt!`,
         },
         {
           property: `og:type`,
@@ -69,6 +69,10 @@ function SEO({ description, lang, meta, title }) {
         },
       ].concat(meta)}
     >
+      <meta
+        name="Description"
+        content="Chaweng Thai Wok. Vi lagar utsökt thailändsk mat. Kom till oss i Sundbyberg och ät dig mätt!"
+      ></meta>
       <meta
         property="og:description"
         content="Chaweng Thai Wok. Vi lagar utsökt thailändsk mat. Kom till oss i Sundbyberg och ät dig mätt!"
