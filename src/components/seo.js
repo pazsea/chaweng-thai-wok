@@ -45,7 +45,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:description`,
-          content: `Chaweng Thai Wok. Vi lagar utsökt thailändsk mat. Kom till oss i Sundbyberg och ät dig mätt!`,
+          content: `Välkommen till oss! En mysig thai restaurang som ligger på gränsen mellan Sundbyberg/Solna.`,
         },
         {
           property: `og:type`,
@@ -71,11 +71,11 @@ function SEO({ description, lang, meta, title }) {
     >
       <meta
         name="Description"
-        content="Chaweng Thai Wok. Vi lagar utsökt thailändsk mat. Kom till oss i Sundbyberg och ät dig mätt!"
+        content="Välkommen till oss! En mysig thai restaurang som ligger på gränsen mellan Sundbyberg/Solna."
       ></meta>
       <meta
         property="og:description"
-        content="Chaweng Thai Wok. Vi lagar utsökt thailändsk mat. Kom till oss i Sundbyberg och ät dig mätt!"
+        content="Välkommen till oss! En mysig thai restaurang som ligger på gränsen mellan Sundbyberg/Solna."
       ></meta>
       <meta
         property="og:image"
@@ -87,7 +87,7 @@ function SEO({ description, lang, meta, title }) {
       ></meta>
       <meta
         property="twitter:description"
-        content="Chaweng Thai Wok. Vi r utsökt thailändsk mat. Kom till oss i Sundbyberg och ät dig mätt!"
+        content="Vi r utsökt thailändsk mat. Kom till oss i Sundbyberg och ät dig mätt!"
       ></meta>
     </Helmet>
   )
@@ -96,7 +96,7 @@ function SEO({ description, lang, meta, title }) {
 SEO.defaultProps = {
   lang: `en`,
   meta: [],
-  description: `Chaweng Thai Wok. Vi lagar utsökt thailändsk mat. Kom till oss i Sundbyberg och ät dig mätt!`,
+  description: `Välkommen till oss! En mysig thai restaurang som ligger på gränsen mellan Sundbyberg/Solna.`,
 }
 
 SEO.propTypes = {

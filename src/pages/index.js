@@ -11,7 +11,7 @@ import MapPinSvg from "../assets/mappin.svg"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Välkommen" />
+    <SEO title="Hem" />
     <HomeContainer>
       <div className="homeResturang">
         <Image ImageUrl="resturangImage"></Image>
