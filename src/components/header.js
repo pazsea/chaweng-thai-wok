@@ -70,7 +70,7 @@ function Header() {
     intervalChecker(daysAndTimeSlots, options, openStore, closeStore)
   })
 
-  //Every ten minute it check again.
+  //Every ten minute it check again..
   useInterval(() => {
     intervalChecker(daysAndTimeSlots, options, openStore, closeStore)
   }, 600000)
