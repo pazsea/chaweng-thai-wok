@@ -7,7 +7,7 @@
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.6",
     "day-interval-function": "^1.0.5",
-    "gatsby": "^2.15.29",
+    "gatsby": "^4.25.7",
     "gatsby-image": "^2.2.24",
     "gatsby-plugin-google-analytics": "^2.1.21",
     "gatsby-plugin-manifest": "^2.2.20",
